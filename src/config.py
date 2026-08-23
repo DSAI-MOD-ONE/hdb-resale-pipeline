@@ -33,7 +33,7 @@ DATA_DIR.mkdir(exist_ok=True)
 RAW_CSV = DATA_DIR / "hdb_resale.csv"
 
 # Read PROJECT_ROOT/.env into the environment. Real environment variables
-# already set in the shell win, which is how deployments override a file.
+# already set in the shell wconin, which is how deployments override a file.
 load_dotenv(PROJECT_ROOT / ".env")
 
 # --- Storage layers --------------------------------------------------------
